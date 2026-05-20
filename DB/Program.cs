@@ -1,15 +1,11 @@
-﻿using Microsoft.Data.SqlClient;
-using System.Data;
-using System.Threading.Tasks;
-using System.Xml.Linq;
-using RpgApp.Database;
+﻿using RpgApp.Database;
 using RpgApp.Models;
+using System.Configuration;
 class Program
 {
     static async Task Main(string[] args)
     {
-        Console.WriteLine("Введите строку подключения к БД: ");
-        string connectionString = Console.ReadLine();
+        string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
         var connectionManager = new ConnectionManager(connectionString);
         var commandExecutor = new CommandExecutor(connectionManager);

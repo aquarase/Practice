@@ -2,6 +2,7 @@
 using Microsoft.Extensions.DependencyInjection;
 using Practice_DB_EntityFramework.Data;
 using Practice_DB_EntityFramework.Services;
+using System.Configuration;
 
 namespace Practice_DB_EntityFramework
 {
@@ -10,8 +11,7 @@ namespace Practice_DB_EntityFramework
         static async Task Main(string[] args)
         {
             var services = new ServiceCollection();
-            Console.WriteLine("Введите строку подключения к БД: ");
-            string connectionString = Console.ReadLine();
+            string connectionString = ConfigurationManager.ConnectionStrings["DefaultConnection"].ConnectionString;
 
             services.AddDbContext<AppDbContext>(options =>
                 options.UseSqlServer(connectionString));

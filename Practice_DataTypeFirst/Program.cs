@@ -4,7 +4,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine(СalculationOfCompoundInterest(1000, 3, 10));
+        Console.WriteLine("Введите размер депозита:");
+        int deposit = int.Parse(Console.ReadLine());
+        Console.WriteLine("Введите количество лет:");
+        int years = int.Parse(Console.ReadLine());
+        Console.WriteLine("Введите процентную ставку:");
+        int interestRate = int.Parse(Console.ReadLine());
+        Console.WriteLine(СalculationOfCompoundInterest(deposit, years, interestRate));
     }
 
 

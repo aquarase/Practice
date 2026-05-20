@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_Collections", "Pra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_DB_ADONET", "DB\Practice_DB_ADONET.csproj", "{000FCFE6-EFAA-4C80-A56E-E58EE567AA8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{A78CCA26-EC97-4EEC-8A9D-7BB7C150D090}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Practice_DB_EntityFramework", "Practice_DB_EntityFramework\Practice_DB_EntityFramework.csproj", "{6507940F-D6C4-40ED-9E3A-50D94A4D6E88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,10 +41,10 @@ Global
 		{000FCFE6-EFAA-4C80-A56E-E58EE567AA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{000FCFE6-EFAA-4C80-A56E-E58EE567AA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{000FCFE6-EFAA-4C80-A56E-E58EE567AA8D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A78CCA26-EC97-4EEC-8A9D-7BB7C150D090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A78CCA26-EC97-4EEC-8A9D-7BB7C150D090}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A78CCA26-EC97-4EEC-8A9D-7BB7C150D090}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A78CCA26-EC97-4EEC-8A9D-7BB7C150D090}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6507940F-D6C4-40ED-9E3A-50D94A4D6E88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6507940F-D6C4-40ED-9E3A-50D94A4D6E88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6507940F-D6C4-40ED-9E3A-50D94A4D6E88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6507940F-D6C4-40ED-9E3A-50D94A4D6E88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

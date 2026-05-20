@@ -4,7 +4,9 @@ class Program
 {
     static void Main(string[] args)
     {
-        DrawingDiamond(5);
+        Console.WriteLine("Введите длину диагонали: ");
+        int diagonalLength = int.Parse(Console.ReadLine());
+        DrawingDiamond(diagonalLength);
     }
 
 

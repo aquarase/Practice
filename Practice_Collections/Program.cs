@@ -13,6 +13,7 @@ class Program
         array.Push(4);
         array.Push(5);
         array.Push(6);
+        Console.WriteLine("Обход стека: ");
         foreach (var item in array)
         {
             Console.WriteLine(item);
@@ -142,11 +143,13 @@ class Program
 
         public int Count()
         {
+            Console.WriteLine("Количество элементов стека: ");
             return _size;
         }
 
         public int Capacity()
         {
+            Console.WriteLine("Размер стека: ");
             return _array.Length;
         }
 
